@@ -1,12 +1,10 @@
-# tnw-clone
-Clone for the TNW page applying responsive design.
-Sixth project on Microverse course.
-
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Project Name
+# twn-clone
 
 > Making responsive page using some grids and styling.
+> Clone for the TNW page applying responsive design.
+> Sixth project on Microverse course.
 
 ![screenshot](./src/images/app_screenshot.png)
 
