@@ -1,1 +1,133 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+nav {
+  position: fixed;
+  background: white;
+  width: 100%;
+  top: 0;
+}
+main {
+  margin-top: 75px;
+}
+ul {
+  list-style-type: none;
+}
+.flex-nav-left {
+  background: black;
+  padding: 12px;
+}
+.flex-nav-left img {
+  width: 60px;
+}
+.flex-nav-right {
+  flex-direction: column;
+  width: 100%;
+}
+.flex-nav,
+.flex-nav > div,
+.nav-list-1,
+.nav-list-2,
+.nav-list-1 > ul,
+.nav-list-2 > ul {
+  display: flex;
+  justify-content: space-between;
+}
 
+.nav-list-1 {
+  color: #aaa;
+  background: black;
+  font-size: 14px;
+  padding: 8px;
+}
+.left-news {
+  color: white;
+}
+.list-1-left > li,
+.list-1-right > li {
+  margin: 0 5px;
+}
+.nav-list-2 {
+  height: 100%;
+  align-items: center;
+}
+
+.list-2-left > li {
+  margin: 0 10px;
+  color: #aaa;
+  font-variant: small-caps;
+}
+
+.list-2-right {
+  padding: 12px;
+  border-left: 1px solid #ccc;
+}
+.list-2-right i {
+  transform: rotate(90deg);
+  color: #aaa;
+  font-size: 18px;
+}
+.notification {
+  background: #fd3;
+  font-size: 14px;
+  padding: 15px 10px;
+}
+.section1-grid {
+  display: grid;
+  grid-template-areas:
+    "a1 a1 a2"
+    "a1 a1 a3";
+}
+.section1-grid-a1 img,
+.section1-grid-a2 img,
+.section1-grid-a3 img {
+  height: 100%;
+  width: 100%;
+}
+.section1-grid-a1 {
+  grid-area: a1;
+  display: flex;
+  justify-content: center;
+  margin: 0 10px;
+}
+.section1-grid-a2 {
+  grid-area: a2;
+  height: 230px;
+  margin: 0px 10px 0 0;
+}
+.section1-grid-a3 {
+  grid-area: a3;
+  height: 230px;
+  margin: 10px 10px 0 0;
+}
+.footer-icons {
+  background: #131313;
+  padding: 60px 0;
+}
+.icons,
+.footer-icons ul {
+  display: flex;
+  justify-content: center;
+}
+.icons > img {
+  border-radius: 50%;
+  width: 25px;
+  margin: 5px 7px;
+}
+.footer-icons ul > li {
+  color: #aaa;
+  margin: 0 5px;
+  font-size: 12px;
+}
+.footer-credits {
+  background: black;
+  color: white;
+  display: flex;
+  justify-content: center;
+  padding: 40px 0;
+}
+.footer-credits img {
+  width: 32px;
+}
