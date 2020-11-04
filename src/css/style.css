@@ -1,1 +1,49 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
 
+.latest-articles {
+    padding: 0 20px;
+    margin: 0 auto;
+}
+
+.latest-articles h2 {
+    color: orange
+  }
+
+.articles-container {
+  padding-top: 25px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  column-gap: 20px;
+  margin-bottom: 25px;
+}
+
+.article {
+  margin-bottom: 25px;
+}
+
+.article img {
+  width: 100%;
+}
+
+.article p {
+  color: gray;
+}
+
+ .deals b {
+  text-decoration: none;
+  color: red;
+  font-size: 28px;
+}
+
+.deals a{
+    text-decoration: none;
+    color: red;
+    font-size: 12px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
