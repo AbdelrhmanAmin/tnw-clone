@@ -12,7 +12,9 @@ We cloned [this](https://www.smashingmagazine.com/) page using Responsive Design
 
 It will change at the nexts viewport widths:
 
-- Over 768px.
+- Over 1024px
+- Exactly at 1023px.
+- Over 768px but under 1023.
 - Exactly at 767px.
 - Below 767.
 
