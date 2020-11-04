@@ -4,12 +4,12 @@
   padding: 0;
 }
 
-.latest-articles {
+.first-articles {
     padding: 0 20px;
     margin: 0 auto;
 }
 
-.latest-articles h2 {
+.article-wrapper h2 {
     color: orange
   }
 
@@ -34,7 +34,7 @@
   color: gray;
 }
 
- .deals b {
+.deals b {
   text-decoration: none;
   color: red;
   font-size: 28px;
@@ -46,4 +46,80 @@
     font-size: 12px;
     margin-top: 10px;
     margin-bottom: 10px;
-  }
+}
+.card-container {
+  display: flex;
+}
+
+[class*="icard"] {
+  position: relative;
+  width: 33.33%;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.icard-1 {
+  padding-left: 0;
+  padding-right: 10px;
+}
+
+.icard-2 {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.icard-3 {
+  padding-left: 10px;
+  padding-right: 0;
+}
+
+.title-card {
+    background-color: red;
+    padding: 14px 18px 14px 80px;
+    width: 100%;
+}
+
+[class*="icard"] img{
+  position: absolute;
+  top: 20px;
+  left: 20px;
+}
+
+.title-card h4 {
+  font-size: 18px;
+  color: white;
+}
+
+.sub-title-card {
+  padding: 14px 18px 14px 80px;
+  background-color: #ff9a9a;
+}
+
+.sub-title-card h4 {
+    font-size: 18px;
+    color: black;
+
+    font-weight: 500;
+}
+
+.sub-title-card h5 {
+  font-size: 11px;
+  color: black;
+}
+
+.content-card {
+  padding: 16px;
+  background-color: #ffe3e3;
+  border-bottom: 1px solid  #ff9a9a;
+}
+.content-card ul {
+  list-style-type: none;
+}
+
+.closing-card {
+  padding: 15px;
+}
+
+.closing-card span{
+  color: gray;
+}
