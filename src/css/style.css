@@ -3,31 +3,38 @@
   padding: 0;
   box-sizing: border-box;
 }
+
 nav {
   position: fixed;
   background: white;
   width: 100%;
   top: 0;
   z-index: 999;
-  box-shadow: 3px 3px 5px 0px rgba(0, 0, 0, 0.75);
+  box-shadow: 3px 3px 5px 0 rgba(0, 0, 0, 0.75);
 }
+
 main {
   margin-top: 35px;
 }
+
 ul {
   list-style-type: none;
 }
+
 .flex-nav-left {
   background: black;
   padding: 12px;
 }
+
 .flex-nav-left img {
   width: 80px;
 }
+
 .flex-nav-right {
   flex-direction: column;
   width: 100%;
 }
+
 .flex-nav,
 .flex-nav > div,
 .nav-list-1,
@@ -44,6 +51,7 @@ ul {
   font-size: 14px;
   padding: 8px;
 }
+
 .left-news {
   color: white;
 }
@@ -86,11 +94,11 @@ ul {
 
 .section1-grid {
   display: grid;
-
   grid-template-areas:
     "a1 a1 a2"
     "a1 a1 a3";
   grid-template-rows: 225px 225px;
+
   /* margin: 20px 0; */
 }
 
@@ -99,23 +107,6 @@ ul {
   background-size: cover;
   background-position: 50%;
   background-repeat: no-repeat;
-}
-
-.section1-grid-a2 {
-  background-image: url(https://placekitten.com/250/210);
-  background-size: cover;
-  background-position: 50%;
-  background-repeat: no-repeat;
-}
-
-.section1-grid-a3 {
-  background-image: url(https://placekitten.com/250/220);
-  background-size: cover;
-  background-position: 50%;
-  background-repeat: no-repeat;
-}
-
-.section1-grid-a1 {
   grid-area: a1;
   display: flex;
   justify-content: center;
@@ -123,11 +114,19 @@ ul {
 }
 
 .section1-grid-a2 {
+  background-image: url(https://placekitten.com/250/210);
+  background-size: cover;
+  background-position: 50%;
+  background-repeat: no-repeat;
   grid-area: a2;
-  margin: 0px 10px 0 0;
+  margin: 0 10px 0 0;
 }
 
 .section1-grid-a3 {
+  background-image: url(https://placekitten.com/250/220);
+  background-size: cover;
+  background-position: 50%;
+  background-repeat: no-repeat;
   grid-area: a3;
   margin: 10px 10px 0 0;
 }
@@ -238,6 +237,7 @@ ul {
   align-items: baseline;
   margin: 35px 0;
 }
+
 .card-container {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
@@ -287,14 +287,17 @@ ul {
   background-color: #ffe3e3;
   border-bottom: 1px solid #ff9a9a;
 }
+
 .content-card ul li {
   margin: 5px 0;
 }
+
 .closing-card p {
   display: flex;
   flex-direction: column;
   font-size: 12px;
 }
+
 .closing-card {
   padding: 15px;
 }
@@ -322,7 +325,8 @@ a.link2 {
 .popular-part {
   margin-top: 10px;
   position: relative;
-  background-image: linear-gradient(
+  background-image:
+    linear-gradient(
       to top,
       rgba(0, 0, 0, 1),
       rgba(0, 0, 0, 0.4)
@@ -344,6 +348,7 @@ a.link2 {
 .other-1 h3 {
   color: white;
 }
+
 .other-1 p {
   color: #aaa;
   font-size: 12px;
@@ -383,6 +388,7 @@ a.link2 {
   margin-left: -1em;
   width: 1em;
 }
+
 .comments ul li {
   padding: 10px 0 10px 14px;
   font-size: 13px;
