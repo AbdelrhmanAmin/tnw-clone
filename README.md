@@ -8,15 +8,15 @@
 
 ![screenshot](./src/images/app_screenshot.png)
 
-We cloned [this](https://www.smashingmagazine.com/) page using Responsive Design.
+We cloned [this](https://thenextweb.com/) page using Responsive Design.
 
 It will change at the nexts viewport widths:
 
-- Over 1024px
-- Exactly at 1023px.
-- Over 768px but under 1023.
-- Exactly at 767px.
-- Below 767.
+- Desktop.
+- Ipad/Ipad Pro.
+- MotoG4.
+- Galaxy S5.
+- IPhone.
 
 ## Built With
 
@@ -31,7 +31,7 @@ It will change at the nexts viewport widths:
 
 Here you will find a Live Demo page, any comment is well recieved.
 
-[Live Demo Link]()
+[Live Demo Link](https://raw.githack.com/MrkarlosM/tnw-clone/Abdo-branch/index.html)
 
 ## Authors
 
@@ -62,7 +62,7 @@ Also advices are well recieved.
 ## Acknowledgments
 
 - Microverse Team.
-- Smashing Magazine.
+- TNW.
 
 ## 📝 License
 
