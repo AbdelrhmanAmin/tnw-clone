@@ -94,8 +94,12 @@ ul {
     "a1 a1 a2"
     "a1 a1 a3";
   grid-template-rows: 225px 225px;
-
+  position: relative;
   margin-top: 45px;
+}
+
+.hidden-logo {
+  display: none;
 }
 
 .section1-grid-a1 {
