@@ -1,4 +1,4 @@
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 767px) {
   html {
     overflow: hidden;
     height: 100%;
@@ -39,10 +39,13 @@
     display: flex;
     align-items: center;
   }
-
+  .hidden-logo {
+    display: none;
+  }
   .section1-grid {
     display: grid;
-    grid-template-rows: 175px 175px 175px;
+    grid-template-rows: 250px 250px 250px;
+    grid-template-columns: 1fr;
     grid-template-areas:
       "a1"
       "a2"
@@ -54,18 +57,91 @@
     margin: 5px 10px;
   }
 
-  .hidden-logo {
-    display: none;
-  }
-
   .section1-grid-a2 {
     grid-area: a2;
     margin: 5px 10px;
   }
 
+  .section1-grid-a1 {
+    background-image: linear-gradient(
+        to top,
+        rgba(0, 0, 0, 1),
+        rgba(0, 0, 0, 0)
+      ),
+      url(https://placekitten.com/250/250);
+    background-size: cover;
+    background-position: 50%;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+  }
+  .flex-section {
+    display: flex;
+    justify-content: space-between;
+  }
+  .top {
+    margin: 15px;
+    color: white;
+  }
+  .bottom {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-start;
+    margin: 0 15px;
+  }
+  .section1-grid-a1 img {
+    width: 400px;
+  }
+
+  .section1-grid-a1 p {
+    color: white;
+    text-transform: uppercase;
+  }
+
+  .section1-grid-a1 h2 {
+    color: white;
+    font-size: 18px;
+  }
   .section1-grid-a3 {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    justify-content: flex-end;
+    color: white;
     grid-area: a3;
     margin: 5px 10px;
+  }
+  .section1-grid-a2 h2 {
+    margin: 20px 12px;
+    font-size: 18px;
+  }
+  .section1-grid-a3 h2 {
+    font-size: 18px;
+  }
+
+  .section1-grid-a3 ul {
+    display: flex;
+    color: #aaa;
+    font-size: 12px;
+    margin: 5px 0;
+  }
+  .section1-grid-a1 ul {
+    display: flex;
+    color: #aaa;
+    font-size: 12px;
+    margin-bottom: 5px;
+  }
+  .section1-grid-a1 ul > li,
+  .section1-grid-a3 ul > li {
+    margin: 5px;
+  }
+  .section1-grid-a2 {
+    display: flex;
+    color: white;
+    align-items: flex-end;
   }
 
   .footer-credits p {
@@ -77,10 +153,6 @@
 
   .articles-container {
     display: block;
-  }
-
-  .hidden {
-    display: none;
   }
 
   .article {
@@ -148,11 +220,89 @@
 @media only screen and (min-width: 768px) and (max-width: 1024px) {
   .section1-grid {
     grid-template-columns: 1fr 1fr 1fr;
-    margin-top: 70px;
+    margin-top: 85px;
   }
-
   .hidden-logo {
     display: none;
+  }
+  .section1-grid-a1 {
+    background-image: linear-gradient(
+        to top,
+        rgba(0, 0, 0, 1),
+        rgba(0, 0, 0, 0)
+      ),
+      url(https://placekitten.com/250/250);
+    background-size: cover;
+    background-position: 50%;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+  }
+  .flex-section {
+    display: flex;
+    justify-content: space-between;
+  }
+  .top {
+    margin: 15px;
+    color: white;
+  }
+  .bottom {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-start;
+    margin: 0 15px;
+  }
+  .section1-grid-a1 img {
+    width: 400px;
+  }
+
+  .section1-grid-a1 p {
+    color: white;
+    text-transform: uppercase;
+  }
+
+  .section1-grid-a1 h2 {
+    color: white;
+    font-size: 32px;
+  }
+  .section1-grid-a3 {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    justify-content: flex-end;
+    color: white;
+  }
+  .section1-grid-a2 h2 {
+    margin: 20px 12px;
+    font-size: 22px;
+  }
+  .section1-grid-a3 h2 {
+    font-size: 22px;
+  }
+
+  .section1-grid-a3 ul {
+    display: flex;
+    color: #aaa;
+    font-size: 12px;
+    margin: 5px 0;
+  }
+  .section1-grid-a1 ul {
+    display: flex;
+    color: #aaa;
+    font-size: 12px;
+    margin: 20px 0;
+  }
+  .section1-grid-a1 ul > li,
+  .section1-grid-a3 ul > li {
+    margin: 5px;
+  }
+  .section1-grid-a2 {
+    display: flex;
+    color: white;
+    align-items: flex-end;
   }
 
   .articles-container {
@@ -201,7 +351,7 @@
     color: red;
     font-size: 14px;
     font-family: Arial, Helvetica, sans-serif;
-    margin: 0 5px 0 0;
+    margin: 10px 5px 0 0;
     border-right: 1px solid red;
     padding: 0 10px 0 0;
     font-weight: 100;
@@ -231,7 +381,7 @@
 
   .section1-grid {
     grid-template-columns: 1fr 1fr 1fr;
-    margin-top: 70px;
+    margin-top: 85px;
   }
 
   .section1-grid-a1 {
@@ -246,15 +396,28 @@
     background-size: cover;
     background-position: 50%;
     background-repeat: no-repeat;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
   }
-
-  .section1-grid-a1 img {
-    position: absolute;
-    top: 24px;
-    max-width: 50%;
+  .flex-section {
+    display: flex;
+    justify-content: space-between;
+  }
+  .top {
+    margin: 15px;
+    color: white;
+  }
+  .bottom {
     height: 100%;
-    max-height: 112px;
-    left: 24px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-start;
+    margin: 0 15px;
+  }
+  .section1-grid-a1 img {
+    width: 400px;
   }
 
   .hidden-logo {
@@ -268,13 +431,43 @@
 
   .section1-grid-a1 h2 {
     color: white;
-    font-size: 32px;
+    font-size: 50px;
   }
-
+  .section1-grid-a3 {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    justify-content: flex-end;
+    color: white;
+  }
+  .section1-grid-a3 h2 {
+    font-size: 31px;
+  }
+  .section1-grid-a3 ul {
+    display: flex;
+    color: #aaa;
+    font-size: 12px;
+    margin: 5px 0;
+  }
   .section1-grid-a1 ul {
     display: flex;
+    color: #aaa;
+    font-size: 12px;
+    margin: 20px 0;
   }
-
+  .section1-grid-a1 ul > li,
+  .section1-grid-a3 ul > li {
+    margin: 5px;
+  }
+  .section1-grid-a2 {
+    display: flex;
+    color: white;
+    align-items: flex-end;
+  }
+  .section1-grid-a2 h2 {
+    margin: 20px 12px;
+    font-size: 32px;
+  }
   .articles-container {
     padding-top: 25px;
     display: grid;
