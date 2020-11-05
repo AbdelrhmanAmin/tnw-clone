@@ -62,7 +62,7 @@ Also advices are well recieved.
 ## Acknowledgments
 
 - Microverse Team.
-- Smashing Magazine.
+- TNW.
 
 ## 📝 License
 
