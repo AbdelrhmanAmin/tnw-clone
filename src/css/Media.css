@@ -39,9 +39,11 @@
     display: flex;
     align-items: center;
   }
+
   .hidden-logo {
     display: none;
   }
+
   .section1-grid {
     display: grid;
     grid-template-rows: 250px 250px 250px;
@@ -52,18 +54,17 @@
       "a3";
   }
 
-  .section1-grid-a1 {
-    grid-area: a1;
-    margin: 5px 10px;
-  }
-
   .section1-grid-a2 {
     grid-area: a2;
     margin: 5px 10px;
+    display: flex;
+    color: white;
+    align-items: flex-end;
   }
 
   .section1-grid-a1 {
-    background-image: linear-gradient(
+    background-image:
+      linear-gradient(
         to top,
         rgba(0, 0, 0, 1),
         rgba(0, 0, 0, 0)
@@ -75,15 +76,20 @@
     display: flex;
     justify-content: space-between;
     flex-direction: column;
+    grid-area: a1;
+    margin: 5px 10px;
   }
+
   .flex-section {
     display: flex;
     justify-content: space-between;
   }
+
   .top {
     margin: 15px;
     color: white;
   }
+
   .bottom {
     height: 100%;
     display: flex;
@@ -92,6 +98,7 @@
     align-items: flex-start;
     margin: 0 15px;
   }
+
   .section1-grid-a1 img {
     width: 400px;
   }
@@ -105,6 +112,7 @@
     color: white;
     font-size: 18px;
   }
+
   .section1-grid-a3 {
     display: flex;
     flex-direction: column;
@@ -114,10 +122,12 @@
     grid-area: a3;
     margin: 5px 10px;
   }
+
   .section1-grid-a2 h2 {
     margin: 20px 12px;
     font-size: 18px;
   }
+
   .section1-grid-a3 h2 {
     font-size: 18px;
   }
@@ -128,20 +138,17 @@
     font-size: 12px;
     margin: 5px 0;
   }
+
   .section1-grid-a1 ul {
     display: flex;
     color: #aaa;
     font-size: 12px;
     margin-bottom: 5px;
   }
+
   .section1-grid-a1 ul > li,
   .section1-grid-a3 ul > li {
     margin: 5px;
-  }
-  .section1-grid-a2 {
-    display: flex;
-    color: white;
-    align-items: flex-end;
   }
 
   .footer-credits p {
@@ -222,11 +229,14 @@
     grid-template-columns: 1fr 1fr 1fr;
     margin-top: 85px;
   }
+
   .hidden-logo {
     display: none;
   }
+
   .section1-grid-a1 {
-    background-image: linear-gradient(
+    background-image:
+      linear-gradient(
         to top,
         rgba(0, 0, 0, 1),
         rgba(0, 0, 0, 0)
@@ -239,14 +249,17 @@
     justify-content: space-between;
     flex-direction: column;
   }
+
   .flex-section {
     display: flex;
     justify-content: space-between;
   }
+
   .top {
     margin: 15px;
     color: white;
   }
+
   .bottom {
     height: 100%;
     display: flex;
@@ -255,6 +268,7 @@
     align-items: flex-start;
     margin: 0 15px;
   }
+
   .section1-grid-a1 img {
     width: 400px;
   }
@@ -268,6 +282,7 @@
     color: white;
     font-size: 32px;
   }
+
   .section1-grid-a3 {
     display: flex;
     flex-direction: column;
@@ -275,10 +290,12 @@
     justify-content: flex-end;
     color: white;
   }
+
   .section1-grid-a2 h2 {
     margin: 20px 12px;
     font-size: 22px;
   }
+
   .section1-grid-a3 h2 {
     font-size: 22px;
   }
@@ -289,16 +306,19 @@
     font-size: 12px;
     margin: 5px 0;
   }
+
   .section1-grid-a1 ul {
     display: flex;
     color: #aaa;
     font-size: 12px;
     margin: 20px 0;
   }
+
   .section1-grid-a1 ul > li,
   .section1-grid-a3 ul > li {
     margin: 5px;
   }
+
   .section1-grid-a2 {
     display: flex;
     color: white;
@@ -385,7 +405,8 @@
   }
 
   .section1-grid-a1 {
-    background-image: linear-gradient(
+    background-image:
+      linear-gradient(
         -10deg,
         rgb(0, 0, 0),
         rgba(255, 0, 0, 0.185),
@@ -400,14 +421,17 @@
     justify-content: space-between;
     flex-direction: column;
   }
+
   .flex-section {
     display: flex;
     justify-content: space-between;
   }
+
   .top {
     margin: 15px;
     color: white;
   }
+
   .bottom {
     height: 100%;
     display: flex;
@@ -416,6 +440,7 @@
     align-items: flex-start;
     margin: 0 15px;
   }
+
   .section1-grid-a1 img {
     width: 400px;
   }
@@ -433,6 +458,7 @@
     color: white;
     font-size: 50px;
   }
+
   .section1-grid-a3 {
     display: flex;
     flex-direction: column;
@@ -440,34 +466,41 @@
     justify-content: flex-end;
     color: white;
   }
+
   .section1-grid-a3 h2 {
     font-size: 31px;
   }
+
   .section1-grid-a3 ul {
     display: flex;
     color: #aaa;
     font-size: 12px;
     margin: 5px 0;
   }
+
   .section1-grid-a1 ul {
     display: flex;
     color: #aaa;
     font-size: 12px;
     margin: 20px 0;
   }
+
   .section1-grid-a1 ul > li,
   .section1-grid-a3 ul > li {
     margin: 5px;
   }
+
   .section1-grid-a2 {
     display: flex;
     color: white;
     align-items: flex-end;
   }
+
   .section1-grid-a2 h2 {
     margin: 20px 12px;
     font-size: 32px;
   }
+
   .articles-container {
     padding-top: 25px;
     display: grid;
